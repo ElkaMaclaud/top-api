@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TopPageModule = void 0;
 const common_1 = require("@nestjs/common");
-const top_page_controller_1 = require("./top-page.controller");
 const nestjs_typegoose_1 = require("nestjs-typegoose");
+const top_page_controller_1 = require("./top-page.controller");
 const top_page_model_1 = require("./top-page.model");
 let TopPageModule = class TopPageModule {
 };
@@ -21,7 +21,7 @@ TopPageModule = __decorate([
                 {
                     typegooseClass: top_page_model_1.TopPageModel,
                     schemaOptions: {
-                        collection: "TopPage"
+                        collection: 'TopPage'
                     }
                 }
             ])

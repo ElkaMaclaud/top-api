@@ -1,5 +1,5 @@
-import { Base, TimeStamps } from "@typegoose/typegoose/lib/defaultClasses";
-declare class ProducnCharacteristic {
+import { Base, TimeStamps } from '@typegoose/typegoose/lib/defaultClasses';
+declare class ProductCharacteristic {
     name: string;
     value: string;
 }
@@ -16,7 +16,7 @@ export declare class ProductModel extends TimeStamps {
     advantages: string;
     disAdvantages: string;
     categories: string[];
-    tags: string;
-    characteristics: ProducnCharacteristic[];
+    tags: string[];
+    characteristics: ProductCharacteristic[];
 }
 export {};

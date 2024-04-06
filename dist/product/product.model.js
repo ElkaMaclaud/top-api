@@ -12,16 +12,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProductModel = void 0;
 const typegoose_1 = require("@typegoose/typegoose");
 const defaultClasses_1 = require("@typegoose/typegoose/lib/defaultClasses");
-class ProducnCharacteristic {
+class ProductCharacteristic {
 }
 __decorate([
     typegoose_1.prop(),
     __metadata("design:type", String)
-], ProducnCharacteristic.prototype, "name", void 0);
+], ProductCharacteristic.prototype, "name", void 0);
 __decorate([
     typegoose_1.prop(),
     __metadata("design:type", String)
-], ProducnCharacteristic.prototype, "value", void 0);
+], ProductCharacteristic.prototype, "value", void 0);
 class ProductModel extends defaultClasses_1.TimeStamps {
 }
 __decorate([
@@ -66,10 +66,10 @@ __decorate([
 ], ProductModel.prototype, "categories", void 0);
 __decorate([
     typegoose_1.prop({ type: () => [String] }),
-    __metadata("design:type", String)
+    __metadata("design:type", Array)
 ], ProductModel.prototype, "tags", void 0);
 __decorate([
-    typegoose_1.prop({ type: () => [ProducnCharacteristic], _id: false }),
+    typegoose_1.prop({ type: () => [ProductCharacteristic], _id: false }),
     __metadata("design:type", Array)
 ], ProductModel.prototype, "characteristics", void 0);
 exports.ProductModel = ProductModel;

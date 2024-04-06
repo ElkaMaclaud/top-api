@@ -8,8 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthModule = void 0;
 const common_1 = require("@nestjs/common");
-const auth_controller_1 = require("./auth.controller");
 const nestjs_typegoose_1 = require("nestjs-typegoose");
+const auth_controller_1 = require("./auth.controller");
 const auth_model_1 = require("./auth.model");
 let AuthModule = class AuthModule {
 };
@@ -21,7 +21,7 @@ AuthModule = __decorate([
                 {
                     typegooseClass: auth_model_1.AuthModel,
                     schemaOptions: {
-                        collection: "Auth"
+                        collection: 'Auth'
                     }
                 }
             ])

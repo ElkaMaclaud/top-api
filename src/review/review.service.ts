@@ -27,11 +27,11 @@ export class ReviewService {
       .find({ productId: Types.ObjectId(productId) }) 
       .exec();
   }
-  async deleteByProductId(
-    productId: string
-  ): Promise<DocumentType<ReviewModel>[]> {
-    return this.reviewModel
-      .deleteMany({ productId: Types.ObjectId(productId) })
-      .exec();
-  }
+  // async deleteByProductId(
+  //   productId: string
+  // ): Promise<DocumentType<ReviewModel>[]> {
+  //   return this.reviewModel
+  //     .deleteMany({ productId: Types.ObjectId(productId) })
+  //     .exec();
+  // }
 }

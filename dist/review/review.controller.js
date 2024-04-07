@@ -18,6 +18,7 @@ const create_review_dto_1 = require("./dto/create-review.dto");
 const review_constants_1 = require("./review.constants");
 const review_service_1 = require("./review.service");
 const jwt_guard_1 = require("../auth/guards/jwt.guard");
+const user_email_decorator_1 = require("../decorators/user-email.decorator");
 let ReviewController = class ReviewController {
     constructor(reviewService) {
         this.reviewService = reviewService;
@@ -31,7 +32,8 @@ let ReviewController = class ReviewController {
             throw new common_1.HttpException(review_constants_1.REVIEW_NOT_FOUND, common_1.HttpStatus.NOT_FOUND);
         }
     }
-    async getByProduct(productId) {
+    async getByProduct(productId, email) {
+        console.log(email);
         return this.reviewService.findByProductId(productId);
     }
 };
@@ -44,6 +46,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "create", null);
 __decorate([
+    common_1.UseGuards(jwt_guard_1.JwtAuthGuard),
     common_1.Delete(":id"),
     __param(0, common_1.Param("id")),
     __metadata("design:type", Function),
@@ -51,11 +54,11 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "delete", null);
 __decorate([
-    common_1.UseGuards(jwt_guard_1.JwtAuthGuard),
     common_1.Get("byProduct/:productId"),
     __param(0, common_1.Param("productId")),
+    __param(1, user_email_decorator_1.UserEmail()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "getByProduct", null);
 ReviewController = __decorate([

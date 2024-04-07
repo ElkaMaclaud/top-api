@@ -5,5 +5,5 @@ export declare class ReviewController {
     constructor(reviewService: ReviewService);
     create(dto: CreateReviewDto): Promise<import("@typegoose/typegoose").DocumentType<import("./review.model").ReviewModel>>;
     delete(id: string): Promise<void>;
-    getByProduct(productId: string): Promise<import("@typegoose/typegoose").DocumentType<import("./review.model").ReviewModel>[]>;
+    getByProduct(productId: string, email: string): Promise<import("@typegoose/typegoose").DocumentType<import("./review.model").ReviewModel>[]>;
 }

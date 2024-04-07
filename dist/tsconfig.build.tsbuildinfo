@@ -2537,7 +2537,7 @@
         "affectsGlobalScope": false
       },
       "../src/auth/auth.module.ts": {
-        "version": "9059839ada669802381ff9a035f4e89256e4efd14a428e17a5947b695ca5eae1",
+        "version": "f693d6fff771cff4a5dc9b7040e9f91f927b0a3b59b02d2a0b775df01221bba7",
         "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc",
         "affectsGlobalScope": false
       },
@@ -2606,9 +2606,14 @@
         "signature": "baf608b3f1bf90782d8b003287213bceae5e9b31f56c2ce676e223ea85ea10b2",
         "affectsGlobalScope": false
       },
+      "../src/decorators/user-email.decorator.ts": {
+        "version": "2dc99e96683d68556d6edea56ff275a7ea3cc430c1fd2fa27e11594152f2f92a",
+        "signature": "741736f22970e431df0d54ad82253fdd194dfc586adf021decc8aabf20edb3aa",
+        "affectsGlobalScope": false
+      },
       "../src/review/review.controller.ts": {
-        "version": "9cda658cb845797eefbfa2b4a5bf0ef13d6ee53eb9d3dcec7570d85db7e8ff8e",
-        "signature": "021cf4e4ed3b2bcfc64b4dd7f67d77026c59340e1a5bd72e4f8cca660e82e933",
+        "version": "34a6cb45273ed554892f02dbe5fcc69c90ae655ec08031c7e8ad8c95914c281e",
+        "signature": "acef7b926f00bdbd369b5efb5dca93759704b1716a446bbdcf2f148587282b92",
         "affectsGlobalScope": false
       },
       "../src/review/review.module.ts": {
@@ -5246,6 +5251,9 @@
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/nestjs-typegoose/dist/index.d.ts"
       ],
+      "../src/decorators/user-email.decorator.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
         "../src/app.module.ts"
@@ -5271,6 +5279,7 @@
       "../src/review/review.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/auth/guards/jwt.guard.ts",
+        "../src/decorators/user-email.decorator.ts",
         "../src/review/dto/create-review.dto.ts",
         "../src/review/review.constants.ts",
         "../src/review/review.service.ts"

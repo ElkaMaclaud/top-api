@@ -4,5 +4,5 @@ export declare class CreateReviewDto {
     description: string;
     rating: number;
     productId: string;
-    typegooseName: any;
+    typegooseName: string;
 }

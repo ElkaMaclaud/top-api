@@ -17,6 +17,7 @@ const common_1 = require("@nestjs/common");
 const create_review_dto_1 = require("./dto/create-review.dto");
 const review_constants_1 = require("./review.constants");
 const review_service_1 = require("./review.service");
+const jwt_guard_1 = require("../auth/guards/jwt.guard");
 let ReviewController = class ReviewController {
     constructor(reviewService) {
         this.reviewService = reviewService;
@@ -36,28 +37,29 @@ let ReviewController = class ReviewController {
 };
 __decorate([
     common_1.UsePipes(new common_1.ValidationPipe()),
-    common_1.Post('create'),
+    common_1.Post("create"),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_review_dto_1.CreateReviewDto]),
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "create", null);
 __decorate([
-    common_1.Delete(':id'),
-    __param(0, common_1.Param('id')),
+    common_1.Delete(":id"),
+    __param(0, common_1.Param("id")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "delete", null);
 __decorate([
-    common_1.Get('byProduct/:productId'),
-    __param(0, common_1.Param('productId')),
+    common_1.UseGuards(jwt_guard_1.JwtAuthGuard),
+    common_1.Get("byProduct/:productId"),
+    __param(0, common_1.Param("productId")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "getByProduct", null);
 ReviewController = __decorate([
-    common_1.Controller('review'),
+    common_1.Controller("review"),
     __metadata("design:paramtypes", [review_service_1.ReviewService])
 ], ReviewController);
 exports.ReviewController = ReviewController;

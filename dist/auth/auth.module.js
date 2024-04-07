@@ -10,7 +10,11 @@ exports.AuthModule = void 0;
 const common_1 = require("@nestjs/common");
 const nestjs_typegoose_1 = require("nestjs-typegoose");
 const auth_controller_1 = require("./auth.controller");
-const auth_model_1 = require("./auth.model");
+const user_model_1 = require("./user.model");
+const auth_service_1 = require("./auth.service");
+const jwt_1 = require("@nestjs/jwt");
+const config_1 = require("@nestjs/config");
+const jwt_config_1 = require("../configs/jwt.config");
 let AuthModule = class AuthModule {
 };
 AuthModule = __decorate([
@@ -19,13 +23,19 @@ AuthModule = __decorate([
         imports: [
             nestjs_typegoose_1.TypegooseModule.forFeature([
                 {
-                    typegooseClass: auth_model_1.AuthModel,
+                    typegooseClass: user_model_1.UserModel,
                     schemaOptions: {
-                        collection: 'Auth'
-                    }
-                }
-            ])
-        ]
+                        collection: "User",
+                    },
+                },
+            ]),
+            jwt_1.JwtModule.registerAsync({
+                imports: [config_1.ConfigModule],
+                inject: [config_1.ConfigService],
+                useFactory: jwt_config_1.getJWTConfig,
+            }),
+        ],
+        providers: [auth_service_1.AuthService],
     })
 ], AuthModule);
 exports.AuthModule = AuthModule;

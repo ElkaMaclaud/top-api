@@ -14,30 +14,45 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthController = void 0;
 const common_1 = require("@nestjs/common");
+const auth_constants_1 = require("./auth.constants");
+const auth_service_1 = require("./auth.service");
 const auth_dto_1 = require("./dto/auth.dto");
 let AuthController = class AuthController {
-    async register(dto) {
+    constructor(authService) {
+        this.authService = authService;
     }
-    async login(dto) {
+    async register(dto) {
+        const oldUser = await this.authService.findUser(dto.login);
+        if (oldUser) {
+            throw new common_1.BadRequestException(auth_constants_1.ALREADY_REGISTERED_ERROR);
+        }
+        return this.authService.createUser(dto);
+    }
+    async login({ login, password }) {
+        const { email } = await this.authService.validateUser(login, password);
+        return this.authService.login(email);
     }
 };
 __decorate([
-    common_1.Post('register'),
+    common_1.UsePipes(new common_1.ValidationPipe()),
+    common_1.Post("register"),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [auth_dto_1.AuthDto]),
     __metadata("design:returntype", Promise)
 ], AuthController.prototype, "register", null);
 __decorate([
+    common_1.UsePipes(new common_1.ValidationPipe()),
     common_1.HttpCode(200),
-    common_1.Post('login'),
+    common_1.Post("login"),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [auth_dto_1.AuthDto]),
     __metadata("design:returntype", Promise)
 ], AuthController.prototype, "login", null);
 AuthController = __decorate([
-    common_1.Controller('auth')
+    common_1.Controller("auth"),
+    __metadata("design:paramtypes", [auth_service_1.AuthService])
 ], AuthController);
 exports.AuthController = AuthController;
 //# sourceMappingURL=auth.controller.js.map

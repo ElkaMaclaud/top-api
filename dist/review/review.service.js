@@ -17,9 +17,6 @@ const common_1 = require("@nestjs/common");
 const mongoose_1 = require("mongoose");
 const nestjs_typegoose_1 = require("nestjs-typegoose");
 const review_model_1 = require("./review.model");
-class Leak {
-}
-const leaks = [];
 let ReviewService = class ReviewService {
     constructor(reviewModel) {
         this.reviewModel = reviewModel;
@@ -31,7 +28,6 @@ let ReviewService = class ReviewService {
         return this.reviewModel.findByIdAndDelete(id).exec();
     }
     async findByProductId(productId) {
-        leaks.push(new Leak());
         return this.reviewModel
             .find({ productId: mongoose_1.Types.ObjectId(productId) })
             .exec();

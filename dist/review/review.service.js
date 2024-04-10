@@ -22,7 +22,6 @@ let ReviewService = class ReviewService {
         this.reviewModel = reviewModel;
     }
     async create(dto) {
-        console.log("////////////////////////////");
         return this.reviewModel.create(dto);
     }
     async delete(id) {

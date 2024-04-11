@@ -35,5 +35,9 @@ __decorate([
     class_validator_1.IsString(),
     __metadata("design:type", String)
 ], CreateReviewDto.prototype, "productId", void 0);
+__decorate([
+    class_validator_1.IsString(),
+    __metadata("design:type", String)
+], CreateReviewDto.prototype, "typegooseName", void 0);
 exports.CreateReviewDto = CreateReviewDto;
 //# sourceMappingURL=create-review.dto.js.map

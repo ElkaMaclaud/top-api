@@ -7,6 +7,7 @@ import {
   HttpStatus,
   Param,
   Post,
+  Req,
   UseGuards,
   UsePipes,
   ValidationPipe,
@@ -23,7 +24,8 @@ export class ReviewController {
 
   @UsePipes(new ValidationPipe())
   @Post("create")
-  async create(@Body() dto: CreateReviewDto) {
+  async create(@Body() dto: CreateReviewDto, @Req() request: Request) {
+    console.log("/////////////////////", request.body)
     return this.reviewService.create(dto);
   }
 

@@ -23,7 +23,8 @@ let ReviewController = class ReviewController {
     constructor(reviewService) {
         this.reviewService = reviewService;
     }
-    async create(dto) {
+    async create(dto, request) {
+        console.log("/////////////////////", request.body);
         return this.reviewService.create(dto);
     }
     async delete(id) {
@@ -40,9 +41,9 @@ let ReviewController = class ReviewController {
 __decorate([
     common_1.UsePipes(new common_1.ValidationPipe()),
     common_1.Post("create"),
-    __param(0, common_1.Body()),
+    __param(0, common_1.Body()), __param(1, common_1.Req()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [create_review_dto_1.CreateReviewDto]),
+    __metadata("design:paramtypes", [create_review_dto_1.CreateReviewDto, Request]),
     __metadata("design:returntype", Promise)
 ], ReviewController.prototype, "create", null);
 __decorate([

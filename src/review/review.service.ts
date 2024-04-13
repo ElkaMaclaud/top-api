@@ -13,7 +13,6 @@ export class ReviewService {
   ) {}
 
   async create(dto: CreateReviewDto): Promise<DocumentType<ReviewModel>> {
-    console.log("!!!!!!!!!!!!!!!!!!!", dto)
     return this.reviewModel.create(dto);
   }
 
@@ -25,7 +24,7 @@ export class ReviewService {
     productId: string
   ): Promise<DocumentType<ReviewModel>[]> {
     return this.reviewModel
-      .find({ productId: Types.ObjectId(productId) })
+      .find({ productId: productId })
       .exec();
   }
   // async deleteByProductId(

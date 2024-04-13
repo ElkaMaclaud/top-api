@@ -25,7 +25,6 @@ export class ReviewController {
   @UsePipes(new ValidationPipe())
   @Post("create")
   async create(@Body() dto: CreateReviewDto, @Req() request: Request) {
-    console.log("/////////////////////", request.body)
     return this.reviewService.create(dto);
   }
 
@@ -43,7 +42,6 @@ export class ReviewController {
     @Param("productId") productId: string,
     @UserEmail() email: string
   ) {
-    console.log(email);
     return this.reviewService.findByProductId(productId);
   }
 }

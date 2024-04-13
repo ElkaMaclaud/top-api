@@ -14,7 +14,6 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ReviewService = void 0;
 const common_1 = require("@nestjs/common");
-const mongoose_1 = require("mongoose");
 const nestjs_typegoose_1 = require("nestjs-typegoose");
 const review_model_1 = require("./review.model");
 let ReviewService = class ReviewService {
@@ -22,7 +21,6 @@ let ReviewService = class ReviewService {
         this.reviewModel = reviewModel;
     }
     async create(dto) {
-        console.log("!!!!!!!!!!!!!!!!!!!", dto);
         return this.reviewModel.create(dto);
     }
     async delete(id) {
@@ -30,7 +28,7 @@ let ReviewService = class ReviewService {
     }
     async findByProductId(productId) {
         return this.reviewModel
-            .find({ productId: mongoose_1.Types.ObjectId(productId) })
+            .find({ productId: productId })
             .exec();
     }
 };

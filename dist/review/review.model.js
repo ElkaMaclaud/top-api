@@ -12,7 +12,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ReviewModel = void 0;
 const typegoose_1 = require("@typegoose/typegoose");
 const defaultClasses_1 = require("@typegoose/typegoose/lib/defaultClasses");
-const mongoose_1 = require("mongoose");
 class ReviewModel extends defaultClasses_1.TimeStamps {
 }
 __decorate([
@@ -33,7 +32,7 @@ __decorate([
 ], ReviewModel.prototype, "rating", void 0);
 __decorate([
     typegoose_1.prop(),
-    __metadata("design:type", Object)
+    __metadata("design:type", String)
 ], ReviewModel.prototype, "productId", void 0);
 exports.ReviewModel = ReviewModel;
 //# sourceMappingURL=review.model.js.map

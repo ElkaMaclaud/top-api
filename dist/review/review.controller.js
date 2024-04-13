@@ -24,7 +24,6 @@ let ReviewController = class ReviewController {
         this.reviewService = reviewService;
     }
     async create(dto, request) {
-        console.log("/////////////////////", request.body);
         return this.reviewService.create(dto);
     }
     async delete(id) {
@@ -34,7 +33,6 @@ let ReviewController = class ReviewController {
         }
     }
     async getByProduct(productId, email) {
-        console.log(email);
         return this.reviewService.findByProductId(productId);
     }
 };

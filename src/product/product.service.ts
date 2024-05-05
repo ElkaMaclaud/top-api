@@ -48,8 +48,14 @@ export class ProductService {
         {
           $lookup: {
             from: "Review",
-            localField: "_id",
-            foreignField: "productId",
+            let: { productId: { $toString: "$_id" } }, // Преобразование _id в строку
+            pipeline: [
+              {
+                $match: {
+                  $expr: { $eq: ["$$productId", "$productId"] },
+                },
+              },
+            ],
             as: "reviews",
           },
         },
@@ -67,3 +73,40 @@ export class ProductService {
     })[];
   }
 }
+
+//Проверочные агрегации
+// $lookup: {
+//   from: "Review",
+//   pipeline: [
+//     {
+//       $project: {
+//         productId: 1,
+//       },
+//     },
+//   ],
+//   as: "reviews",
+// },
+// $lookup: {
+//   from: "Review",
+//   localField: "_id",
+//   foreignField: "productId",
+//   as: "reviews",
+// },
+// $lookup: {
+//   from: "Review",
+//   localField: "_id",
+//   foreignField: "productId",
+// pipeline: [
+//   // {
+//   //   $match: {
+//   //     $expr: { $eq: ["$productId", "661565d11e67e530642d5374"] }, // Сравнение как строка
+//   //   },
+//   // },
+//   {
+//     $match: {
+//       $expr: { $eq: ["$$productId", "$productId"] },
+//     },
+//   },
+// ],
+//   as: "reviews",
+// },

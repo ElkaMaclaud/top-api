@@ -2732,7 +2732,7 @@
         "affectsGlobalScope": false
       },
       "../src/product/product.service.ts": {
-        "version": "aaab577b9dbc40aa5d2011a03ac5d5b13f7f162c2e300739c218920bf3f4f7d8",
+        "version": "eb7684c92711b134756386abe32eece5b097555d237c397cdb52a88686664f0c",
         "signature": "24ac797288d89933aa948b96bb7b1b5e2c47bce74c3207be4291e03209cd2738",
         "affectsGlobalScope": false
       },

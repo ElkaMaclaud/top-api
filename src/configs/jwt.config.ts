@@ -8,3 +8,4 @@ export const getJWTConfig = async (
     secret: configService.get("JWT_SECRET"),
   };
 };
+ 

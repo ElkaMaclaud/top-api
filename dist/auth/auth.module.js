@@ -37,7 +37,7 @@ AuthModule = __decorate([
                 inject: [config_1.ConfigService],
                 useFactory: jwt_config_1.getJWTConfig,
             }),
-            passport_1.PassportModule
+            passport_1.PassportModule,
         ],
         providers: [auth_service_1.AuthService, jwt_stratagy_1.JwtStratagy],
     })

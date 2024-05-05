@@ -13,7 +13,7 @@ export class AuthService {
     @InjectModel(UserModel) private readonly userModel: ModelType<UserModel>,
     private readonly jwtService: JwtService
   ) {}
-
+ 
   async createUser(dto: AuthDto) {
     const salt = await genSalt(10);
     const newUser = new this.userModel({

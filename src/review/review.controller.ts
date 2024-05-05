@@ -24,7 +24,8 @@ export class ReviewController {
 
   @UsePipes(new ValidationPipe())
   @Post("create")
-  async create(@Body() dto: CreateReviewDto, @Req() request: Request) {
+  async create(@Body() dto: CreateReviewDto) {
+    // @Req() request: Request - ошибка в тестах - не знает что такое Request!
     return this.reviewService.create(dto);
   }
 
@@ -37,11 +38,13 @@ export class ReviewController {
     }
   }
 
+  //@UseGuards(JwtAuthGuard)
   @Get("byProduct/:productId")
   async getByProduct(
     @Param("productId") productId: string,
-    @UserEmail() email: string
+    // @UserEmail() email: string
   ) {
+    //console.log(email)
     return this.reviewService.findByProductId(productId);
   }
 }

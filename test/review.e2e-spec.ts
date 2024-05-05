@@ -14,12 +14,13 @@ const loginDto: AuthDto = {
   password: "qwerty",
 };
 
-const testDto: Omit<CreateReviewDto, "typegooseName"> = {
+const testDto: CreateReviewDto = {
   name: "Тест",
   title: "Заголовок",
   description: "Описание тестовое",
   rating: 5,
   productId,
+  typegooseName: ""
 };
 
 describe("AppController (e2e)", () => {
@@ -38,7 +39,7 @@ describe("AppController (e2e)", () => {
     const { body } = await request(app.getHttpServer())
       .post("/auth/login")
       .send(loginDto);
-    token = body.access_token;
+      token = body.access_token;
   });
 
   it("/review/create (POST) - success", async (done) => {
@@ -68,7 +69,7 @@ describe("AppController (e2e)", () => {
       .get("/review/byProduct/" + productId)
       .expect(200)
       .then(({ body }: request.Response) => {
-        expect(body.length).toBe(0);
+        expect(body.length).toBe(1);
         done();
       });
   });

@@ -2712,13 +2712,13 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.service.ts": {
-        "version": "51c1181657e49a9c8c28efd08041a61160b0484eafbb909720df2f5352c58daa",
-        "signature": "687bfc28e5a4f96568e8a38374c681e783ac54b26d11fa306c9a6d1f1aca9e03",
+        "version": "f1c7699f206abd6531c2b03e509145b89e7fb1d3937015b3df6780a8f9d5d272",
+        "signature": "50beab1c845a25fc92e25e860f081df47a4ce89bdff33bdacb70902cf3e27834",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.controller.ts": {
         "version": "e211bffea5ade0439bf33d1d6afafa992c49ce39e6573b29ed9395977652ef26",
-        "signature": "f8dff5ae5475585147c7c2355e1fa30bd36f84337512dbd6ebad944a30662965",
+        "signature": "904e26834453614f2b7977d9c064d349b11c3d0fe40f7f405b89c989160c3c29",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.module.ts": {

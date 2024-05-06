@@ -1,4 +1,4 @@
-import { Base, TimeStamps } from '@typegoose/typegoose/lib/defaultClasses';
+import { Base, TimeStamps } from "@typegoose/typegoose/lib/defaultClasses";
 export declare enum TopLevelCategory {
     Courses = 0,
     Services = 1,

@@ -28,6 +28,24 @@ export class TopPageService {
       .find({ firstCategory }, { alias: 1, secondCategory: 1, title: 1 })
       .exec();
   }
+  
+  async findByText(text: string) {
+    return (
+      this.topPageModel
+        //.find({ $text: { $search: text, $caseSensitive: false } })
+        .find({
+          $or: [
+            { title: { $regex: text, $options: "i" } }, 
+            { seoText: { $regex: text, $options: "i" } }, 
+            { metaTitle: { $regex: text, $options: "i" } }, 
+            { metaDescription: { $regex: text, $options: "i" } },
+            { tagsTitle: { $regex: text, $options: "i" } }, 
+            { tags: { $regex: text, $options: "i" } }, 
+          ],
+        })
+        .exec()
+    );
+  }
 
   async deleteById(id: string) {
     return this.topPageModel.findByIdAndRemove(id).exec();

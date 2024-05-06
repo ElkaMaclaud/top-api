@@ -57,6 +57,9 @@ let TopPageController = class TopPageController {
     async find(dto) {
         return this.topPageService.findByCategory(dto.firstCategory);
     }
+    async textSearch(text) {
+        return this.topPageService.findByText(text);
+    }
 };
 __decorate([
     common_1.UseGuards(jwt_guard_1.JwtAuthGuard),
@@ -106,6 +109,13 @@ __decorate([
     __metadata("design:paramtypes", [find_top_page_dto_1.FindTopPageDto]),
     __metadata("design:returntype", Promise)
 ], TopPageController.prototype, "find", null);
+__decorate([
+    common_1.Get("textSearch/:text"),
+    __param(0, common_1.Param("text")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", Promise)
+], TopPageController.prototype, "textSearch", null);
 TopPageController = __decorate([
     common_1.Controller("top-page"),
     __metadata("design:paramtypes", [top_page_service_1.TopPageService])

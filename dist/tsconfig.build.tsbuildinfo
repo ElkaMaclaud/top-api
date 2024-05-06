@@ -2692,13 +2692,13 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.model.ts": {
-        "version": "38df9689f34cd5b13a278e2838c1552b7fd0ecbb569de6f82636816f7721f481",
-        "signature": "ab856597ba3b41690e2a2718301b44ed55987b95a0159566e8100b8d95c62b74",
+        "version": "aabc02265edcfee6cfcc2a26971740420718656b024f6417280898d5781844b2",
+        "signature": "d7dfca916b61b1a1004febd11973b29e0a2ba76e641a47126767c213e25b3ba4",
         "affectsGlobalScope": false
       },
       "../src/top-page/dto/create-top-page.dto.ts": {
-        "version": "b6933b47a144cb4f59e03d8cf8212772ddd686a54a891391293aabbc6c32a6b4",
-        "signature": "c70377846fa2bd65056bfee434f2f46f7a8282774e0a3597ae78af6c99202b6b",
+        "version": "87dab5b679e04d58cbf02e287f93c17c71a9b59faa3762841fceb024c6abdb70",
+        "signature": "7a8decb0c4aa604f0c3bfdcbadce690e38f0e7c4d6fdd019d28446bece7e3b9e",
         "affectsGlobalScope": false
       },
       "../src/top-page/dto/find-top-page.dto.ts": {
@@ -2712,13 +2712,13 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.service.ts": {
-        "version": "b5909e675ae27c6bd94bfcc4c2134499ce3c8bf3e4d67fbe268b37a909dc04ca",
-        "signature": "7893c41a4c81dc701dd9658daf27559a719abb81195524d2ba2fa20fa9934e84",
+        "version": "51c1181657e49a9c8c28efd08041a61160b0484eafbb909720df2f5352c58daa",
+        "signature": "687bfc28e5a4f96568e8a38374c681e783ac54b26d11fa306c9a6d1f1aca9e03",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.controller.ts": {
-        "version": "495f55036802bd8db22dc2a065623a7e5ebfa2f361148c6b3ea33eeb0a2b84a6",
-        "signature": "d7fa0794a34cdca20177b0fe5000d76b6ba48ae9521ded0857d2e1bdd93c2d6e",
+        "version": "e211bffea5ade0439bf33d1d6afafa992c49ce39e6573b29ed9395977652ef26",
+        "signature": "f8dff5ae5475585147c7c2355e1fa30bd36f84337512dbd6ebad944a30662965",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.module.ts": {

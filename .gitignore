@@ -1,8 +1,10 @@
-.idea
 /node_modules
 /dist
+.idea
 .pnp
 .pnp.js
+.env
+/uploads
 
 /coverage
 

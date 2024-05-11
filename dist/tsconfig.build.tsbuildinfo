@@ -4442,7 +4442,7 @@
         "affectsGlobalScope": false
       },
       "../src/files/files.module.ts": {
-        "version": "50255e73a635c1b2db6574f17a92d8fe09f08b67d4a857ac61820bb02d760422",
+        "version": "561f4436622d89d01985d3dc67696e30302f5c31aafe8a831a35e8ffee0e7a57",
         "signature": "3a86ac7f72f5e69f56d0ce8eda8ea581bb2301e2bea6c1f277f2935253089181",
         "affectsGlobalScope": false
       },

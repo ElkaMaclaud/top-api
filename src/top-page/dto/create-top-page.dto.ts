@@ -1,6 +1,7 @@
 import { Type } from "class-transformer";
 import {
   IsArray,
+  IsDate,
   IsEnum,
   IsNumber,
   IsOptional,
@@ -21,6 +22,9 @@ export class HhDataDto {
 
   @IsNumber()
   seniorSalary: number;
+
+  @IsString()
+  updatedAt: Date;
 }
 
 export class TopPageAdvantageDto {
@@ -59,12 +63,14 @@ export class CreateTopPageDto {
   hh?: HhDataDto;
 
   @IsArray()
+  @IsOptional()
   @ValidateNested()
   @Type(() => TopPageAdvantageDto)
-  advantages: TopPageAdvantageDto[];
+  advantages?: TopPageAdvantageDto[];
 
   @IsString()
-  seoText: string;
+  @IsOptional()
+  seoText?: string;
 
   @IsString()
   tagsTitle: string;

@@ -28,6 +28,7 @@ TopPageModule = __decorate([
             ]),
         ],
         providers: [top_page_service_1.TopPageService],
+        exports: [top_page_service_1.TopPageService]
     })
 ], TopPageModule);
 exports.TopPageModule = TopPageModule;

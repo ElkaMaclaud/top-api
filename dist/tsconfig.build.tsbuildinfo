@@ -2692,13 +2692,13 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.model.ts": {
-        "version": "aabc02265edcfee6cfcc2a26971740420718656b024f6417280898d5781844b2",
-        "signature": "d7dfca916b61b1a1004febd11973b29e0a2ba76e641a47126767c213e25b3ba4",
+        "version": "013c1d37678f2f38fb2f7c54e4a1e1c30216f125afcad7017fb22aefbc612205",
+        "signature": "4dc4ac5393ca5659c49ed4ff171215ba3ac9895568460c79d777d39dde6664f2",
         "affectsGlobalScope": false
       },
       "../src/top-page/dto/create-top-page.dto.ts": {
-        "version": "87dab5b679e04d58cbf02e287f93c17c71a9b59faa3762841fceb024c6abdb70",
-        "signature": "7a8decb0c4aa604f0c3bfdcbadce690e38f0e7c4d6fdd019d28446bece7e3b9e",
+        "version": "87d093cdda0f69d4a63c052b4299db76374932211a6f6c18d3fee622853a5cc9",
+        "signature": "1a489688e9c32f04d3edd10f489c8191736b83288bf0459f4bcf1ab2145deb17",
         "affectsGlobalScope": false
       },
       "../src/top-page/dto/find-top-page.dto.ts": {
@@ -2712,8 +2712,8 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.service.ts": {
-        "version": "f1c7699f206abd6531c2b03e509145b89e7fb1d3937015b3df6780a8f9d5d272",
-        "signature": "50beab1c845a25fc92e25e860f081df47a4ce89bdff33bdacb70902cf3e27834",
+        "version": "46d40843e3779c2aa3c5aa088518fe34e4f60b391fb1d14444b6cf3a81747c02",
+        "signature": "ac2730798bb6eb9b6b404ffc1324414e15c3dcc029f6d19e6590cf32a2c738e5",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.controller.ts": {
@@ -2722,7 +2722,7 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.module.ts": {
-        "version": "f4b15ac0d43087fbc950162453ef8ac028b80fdfeb80852c445b312ab4e7851a",
+        "version": "1ce95489db59c72ba03769fe47663695ad5d8768a3f1f4107466543f7a597476",
         "signature": "f99b22f060c79edf8978129636804f21a94299d7b5322f724d5c80b7e46a77bd",
         "affectsGlobalScope": false
       },
@@ -4446,8 +4446,33 @@
         "signature": "3a86ac7f72f5e69f56d0ce8eda8ea581bb2301e2bea6c1f277f2935253089181",
         "affectsGlobalScope": false
       },
+      "../node_modules/@types/xml2js/lib/processors.d.ts": {
+        "version": "c0288f54de6f544706a3150c8b579b1a975870695c4be866f727ece6a16f3976",
+        "signature": "c0288f54de6f544706a3150c8b579b1a975870695c4be866f727ece6a16f3976",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/xml2js/index.d.ts": {
+        "version": "f8636a916949481bc363ae24cbeb8451fa98fd2d07329e0664a46567278c9adb",
+        "signature": "f8636a916949481bc363ae24cbeb8451fa98fd2d07329e0664a46567278c9adb",
+        "affectsGlobalScope": false
+      },
+      "../src/sitemap/sitemap.constants.ts": {
+        "version": "f74c03b199c98690dbd40ef5eef798e2ddbe28aa01d4e44089977570ba455b18",
+        "signature": "f59bf5a680d990d424c10712e6fe72a731b0d7c0b542161ff5f862ba1908848e",
+        "affectsGlobalScope": false
+      },
+      "../src/sitemap/sitemap.controller.ts": {
+        "version": "8c88d154d581f35a85329fbbb28ab5ee0bc1180c0559db7df3cf54bd71b4851e",
+        "signature": "3516fd18144cdb78a20ef3d2ea8e0f7912826eff9e54bbb9fafe56c56a84529d",
+        "affectsGlobalScope": false
+      },
+      "../src/sitemap/sitemap.module.ts": {
+        "version": "c6f3f7da763ead9d46df8501040e044c17b252274beaf75a8e12d670d9fbb46d",
+        "signature": "48f4814106aca9ba740da7cb8e586d24bc657e6780b3de0b409d9da18487c23c",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "69d0736f1d43f582d18c180c0b4ae815c8e97fe18cad8978adad5b9975c9898b",
+        "version": "535183049ea20731984a212ebb7c620a80832721586d6bbf00f232ccc4d1724a",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -6100,6 +6125,11 @@
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/anymatch/index.d.ts"
       ],
+      "../node_modules/@types/xml2js/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/xml2js/lib/processors.d.ts"
+      ],
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
       ],
@@ -7513,6 +7543,7 @@
         "../src/files/files.module.ts",
         "../src/product/product.module.ts",
         "../src/review/review.module.ts",
+        "../src/sitemap/sitemap.module.ts",
         "../src/top-page/top-page.module.ts"
       ],
       "../src/auth/auth.controller.ts": [
@@ -7671,6 +7702,23 @@
         "../node_modules/nestjs-typegoose/dist/index.d.ts",
         "../src/review/dto/create-review.dto.ts",
         "../src/review/review.model.ts"
+      ],
+      "../src/sitemap/sitemap.constants.ts": [
+        "../src/top-page/top-page.model.ts"
+      ],
+      "../src/sitemap/sitemap.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/config/index.d.ts",
+        "../node_modules/@types/xml2js/index.d.ts",
+        "../node_modules/date-fns/index.d.ts",
+        "../src/sitemap/sitemap.constants.ts",
+        "../src/top-page/top-page.service.ts"
+      ],
+      "../src/sitemap/sitemap.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/config/index.d.ts",
+        "../src/sitemap/sitemap.controller.ts",
+        "../src/top-page/top-page.module.ts"
       ],
       "../src/top-page/dto/create-top-page.dto.ts": [
         "../node_modules/class-transformer/types/index.d.ts",
@@ -9044,6 +9092,11 @@
         "../node_modules/@types/uglify-js/node_modules/source-map/source-map.d.ts",
         "../node_modules/@types/webpack-sources/index.d.ts",
         "../node_modules/anymatch/index.d.ts"
+      ],
+      "../node_modules/@types/xml2js/index.d.ts": [
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/xml2js/lib/processors.d.ts"
       ],
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
@@ -10522,6 +10575,13 @@
         "../node_modules/@typegoose/typegoose/lib/types.d.ts",
         "../src/review/dto/create-review.dto.ts",
         "../src/review/review.model.ts"
+      ],
+      "../src/sitemap/sitemap.constants.ts": [
+        "../src/top-page/top-page.model.ts"
+      ],
+      "../src/sitemap/sitemap.controller.ts": [
+        "../node_modules/@nestjs/config/index.d.ts",
+        "../src/top-page/top-page.service.ts"
       ],
       "../src/top-page/dto/create-top-page.dto.ts": [
         "../src/top-page/top-page.model.ts"

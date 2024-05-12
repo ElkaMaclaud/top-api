@@ -26,7 +26,7 @@ export class TopPageService {
   async findAll() {
     return this.topPageModel.find({}).exec();
   }
-
+  
   async findByCategory(firstCategory: TopLevelCategory) {
     return this.topPageModel
       .aggregate()

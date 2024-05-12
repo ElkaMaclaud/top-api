@@ -2372,8 +2372,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/config/dist/config.module.d.ts": {
-        "version": "a2078415b89a9c8a4fb85323c0847c82357767d499bc20d20e00d6ff7552057d",
-        "signature": "a2078415b89a9c8a4fb85323c0847c82357767d499bc20d20e00d6ff7552057d",
+        "version": "6731c20a2276ec2eadc75b4a5cd108a56850a686a540c229c25a3bcd00c3fc57",
+        "signature": "6731c20a2276ec2eadc75b4a5cd108a56850a686a540c229c25a3bcd00c3fc57",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/config/dist/types/config.type.d.ts": {
@@ -2712,7 +2712,7 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.service.ts": {
-        "version": "46d40843e3779c2aa3c5aa088518fe34e4f60b391fb1d14444b6cf3a81747c02",
+        "version": "4321795676b6ac48f8cb9a6a67935ea189161639371af6aa06aa48a4c3025f39",
         "signature": "ac2730798bb6eb9b6b404ffc1324414e15c3dcc029f6d19e6590cf32a2c738e5",
         "affectsGlobalScope": false
       },
@@ -2766,6 +2766,226 @@
         "signature": "775682a30e63deb0ec3da028a66cf4cd3ae032d1b7d009697c8b9329465ef7f5",
         "affectsGlobalScope": false
       },
+      "../src/telegram/telegram.constants.ts": {
+        "version": "3f74bbcb5f7bedad927165870f9715ce4ffe366a04bf01afac75a033556ce152",
+        "signature": "f7faeb95beacb4eaa0425a2e9eb8bfc289d87d954ff4de0af4be18a6c7abb675",
+        "affectsGlobalScope": false
+      },
+      "../src/telegram/telegram.interface.ts": {
+        "version": "a9b09ada5fe1014e4c9d9b51762cdeb70b63d5af2aa0672efbff054f5adbd877",
+        "signature": "6952b7ccf52ff1a30a90e8a95c14a58fe85b8fe9a6c519d28663c76f638820b2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/api.d.ts": {
+        "version": "c25c48bebefa0d0f1962a80994830be46be28280f382ae71ea0b828a3db90959",
+        "signature": "c25c48bebefa0d0f1962a80994830be46be28280f382ae71ea0b828a3db90959",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/markup.d.ts": {
+        "version": "ad72a5360b53fd91f591a2a8131946e448164a85cb6e536cc6da5dd31ab1e9f9",
+        "signature": "ad72a5360b53fd91f591a2a8131946e448164a85cb6e536cc6da5dd31ab1e9f9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/passport.d.ts": {
+        "version": "75e246f13500218d868207547bc9e4ef01fba7d80cf79374b4aae2d95401fe8b",
+        "signature": "75e246f13500218d868207547bc9e4ef01fba7d80cf79374b4aae2d95401fe8b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/payment.d.ts": {
+        "version": "00f3dc6b86850f5f9a278a8b6b5e3b7148896f84c923223b327a6f3ee999b997",
+        "signature": "00f3dc6b86850f5f9a278a8b6b5e3b7148896f84c923223b327a6f3ee999b997",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/message.d.ts": {
+        "version": "b757b6d3bf8dee0884325365d173c5b15d8281848f7f10748cc18d050740c99e",
+        "signature": "b757b6d3bf8dee0884325365d173c5b15d8281848f7f10748cc18d050740c99e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/manage.d.ts": {
+        "version": "8d0a5965bbb2fddeaad8f0a1de3b82e48d8c381bf61600ae44daac6d8bd3735f",
+        "signature": "8d0a5965bbb2fddeaad8f0a1de3b82e48d8c381bf61600ae44daac6d8bd3735f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/inline.d.ts": {
+        "version": "d4d7aaf4de5643e89087c456bf91ed5faa16b4a069bd60b306fe3e8ab9f7bd8a",
+        "signature": "d4d7aaf4de5643e89087c456bf91ed5faa16b4a069bd60b306fe3e8ab9f7bd8a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/settings.d.ts": {
+        "version": "7408a55601b755c7653921d660ad3ae2fa824e250f242855f0ccb760ba656dff",
+        "signature": "7408a55601b755c7653921d660ad3ae2fa824e250f242855f0ccb760ba656dff",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/update.d.ts": {
+        "version": "0554044b571e1d577eeab38954b5b805a69a6f9837fac129db743556cd96fa62",
+        "signature": "0554044b571e1d577eeab38954b5b805a69a6f9837fac129db743556cd96fa62",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/methods.d.ts": {
+        "version": "a229fc72539dccac4b85b2bf71989a898e30f2af6ca59a39cdb6d9eb7bf50415",
+        "signature": "a229fc72539dccac4b85b2bf71989a898e30f2af6ca59a39cdb6d9eb7bf50415",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@telegraf/types/index.d.ts": {
+        "version": "a17de95fab327b145b54c9ea55136ea61afbfef7aa576ffe93b6dd19966d1ca1",
+        "signature": "a17de95fab327b145b54c9ea55136ea61afbfef7aa576ffe93b6dd19966d1ca1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/core/types/typegram.d.ts": {
+        "version": "c68a829ad309a0e97ef35d59e00a66490fd5b30bee873f12ede22f26448b4d02",
+        "signature": "c68a829ad309a0e97ef35d59e00a66490fd5b30bee873f12ede22f26448b4d02",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/core/helpers/formatting.d.ts": {
+        "version": "b1542f6c0fde6293fe4bfd20d8682bd1581823ffeba708594921d432ad937ff5",
+        "signature": "b1542f6c0fde6293fe4bfd20d8682bd1581823ffeba708594921d432ad937ff5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts": {
+        "version": "ebe71415a20ba12c666d2633e2965d0cad1de96117f004904aef90deebdcb1ea",
+        "signature": "ebe71415a20ba12c666d2633e2965d0cad1de96117f004904aef90deebdcb1ea",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/core/helpers/util.d.ts": {
+        "version": "8f969960aacb0fb4d2229151e2f9569599255a2d4cbeec8248339b3b90b570db",
+        "signature": "8f969960aacb0fb4d2229151e2f9569599255a2d4cbeec8248339b3b90b570db",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/format.d.ts": {
+        "version": "8436b5391d863f52c4df296f50ec364b7c7d3d9f739d67fbc711cf950e60fcbc",
+        "signature": "8436b5391d863f52c4df296f50ec364b7c7d3d9f739d67fbc711cf950e60fcbc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/button.d.ts": {
+        "version": "27d913339e5318c45a5e603ae78d2a49c32643ce9111abc0b34233d592eabbf1",
+        "signature": "27d913339e5318c45a5e603ae78d2a49c32643ce9111abc0b34233d592eabbf1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/markup.d.ts": {
+        "version": "b20a80aa36015f795365948e3adb4cf3b9f80eea586dc68168a7635d10dc6d03",
+        "signature": "b20a80aa36015f795365948e3adb4cf3b9f80eea586dc68168a7635d10dc6d03",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/telegram-types.d.ts": {
+        "version": "2e24f4260c3be01f8e8673729adf40f05f213e4e75cebff73e6c350e946e070c",
+        "signature": "2e24f4260c3be01f8e8673729adf40f05f213e4e75cebff73e6c350e946e070c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/event-target-shim/index.d.ts": {
+        "version": "2859adaa4f2db3d4f0fc37ad86f056045341496b58fba0dbc16a222f9d5d55b1",
+        "signature": "2859adaa4f2db3d4f0fc37ad86f056045341496b58fba0dbc16a222f9d5d55b1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/abort-controller/dist/abort-controller.d.ts": {
+        "version": "655ed305e8f4cb95d3f578040301a4e4d6ace112b1bd8824cd32bda66c3677d1",
+        "signature": "655ed305e8f4cb95d3f578040301a4e4d6ace112b1bd8824cd32bda66c3677d1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/core/network/client.d.ts": {
+        "version": "858519e205d33d456aa2cd57c1bd4737f2331ae4d224ac3c2c29acc52c8c7a3c",
+        "signature": "858519e205d33d456aa2cd57c1bd4737f2331ae4d224ac3c2c29acc52c8c7a3c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/telegram.d.ts": {
+        "version": "89bc9b07856d1efc01873d1f8ee39276a75da2d0d8d640654f2199d60d85fa6b",
+        "signature": "89bc9b07856d1efc01873d1f8ee39276a75da2d0d8d640654f2199d60d85fa6b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/reactions.d.ts": {
+        "version": "ea81ae7616422392d863cb1cccffd8b333efc43fd4f720df439d4b2caf40b339",
+        "signature": "ea81ae7616422392d863cb1cccffd8b333efc43fd4f720df439d4b2caf40b339",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/context.d.ts": {
+        "version": "f762942208cd36dc93751af226ce1cff5b58171a1e7e1b5fb4d5140378e260b8",
+        "signature": "f762942208cd36dc93751af226ce1cff5b58171a1e7e1b5fb4d5140378e260b8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/middleware.d.ts": {
+        "version": "1d775614446eab6860465c7d8d63dc9aa0cc668ee8d7aef4edfdf82e7c497e6f",
+        "signature": "1d775614446eab6860465c7d8d63dc9aa0cc668ee8d7aef4edfdf82e7c497e6f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/composer.d.ts": {
+        "version": "e567370a3c7723c9aa318a3ceea4f1ddb08dddd3bf1bb1a1b7f8d340814dd273",
+        "signature": "e567370a3c7723c9aa318a3ceea4f1ddb08dddd3bf1bb1a1b7f8d340814dd273",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/telegraf.d.ts": {
+        "version": "c8406037f23cec191ee8460a1f10faa178bd93dd2b10a8cb06357af72f3d97ce",
+        "signature": "c8406037f23cec191ee8460a1f10faa178bd93dd2b10a8cb06357af72f3d97ce",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/router.d.ts": {
+        "version": "8f507237c967ce9399fb251b8aa9c13668efdcb520da6290fd3e3d560cd04604",
+        "signature": "8f507237c967ce9399fb251b8aa9c13668efdcb520da6290fd3e3d560cd04604",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/core/network/error.d.ts": {
+        "version": "37a08ae768109aad9c7580bdd9aafa771e2102002fc19065fca4d2f10679ff59",
+        "signature": "37a08ae768109aad9c7580bdd9aafa771e2102002fc19065fca4d2f10679ff59",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/input.d.ts": {
+        "version": "08a6e65e5bdf3426101cc906e5fa96e22196644d2f5cc7f97de0f658bb1bc91f",
+        "signature": "08a6e65e5bdf3426101cc906e5fa96e22196644d2f5cc7f97de0f658bb1bc91f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/session.d.ts": {
+        "version": "c0deb85e60d46699b3bcac5c36566e964a446f3a428de3718f5d6e3cd761bd50",
+        "signature": "c0deb85e60d46699b3bcac5c36566e964a446f3a428de3718f5d6e3cd761bd50",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes/base.d.ts": {
+        "version": "981440c84550cd6d7a1ca93a162491a57948a39e7ae49b59db114041a6559ee5",
+        "signature": "981440c84550cd6d7a1ca93a162491a57948a39e7ae49b59db114041a6559ee5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes/context.d.ts": {
+        "version": "dbf211097d9615854e296cb2a8df0df833fbeab441a57a14905027254364be00",
+        "signature": "dbf211097d9615854e296cb2a8df0df833fbeab441a57a14905027254364be00",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes/stage.d.ts": {
+        "version": "ebdf35d7ce770603c3a51e8ec849ef4a61e162131622b8102becc6a2520d6eb5",
+        "signature": "ebdf35d7ce770603c3a51e8ec849ef4a61e162131622b8102becc6a2520d6eb5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes/wizard/context.d.ts": {
+        "version": "50655b927f0c9a376e9716d8b6ebad1a9a754e56c4013c5c8e45e2452d0c04fd",
+        "signature": "50655b927f0c9a376e9716d8b6ebad1a9a754e56c4013c5c8e45e2452d0c04fd",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes/wizard/index.d.ts": {
+        "version": "b031687b5597cf055336e526fc4a1a811bb3491253190b6fb5a6bba18b2ef082",
+        "signature": "b031687b5597cf055336e526fc4a1a811bb3491253190b6fb5a6bba18b2ef082",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes/index.d.ts": {
+        "version": "f62aecc0723244fcbbed7973ffe98f0693ab1add2d2b89dfdef9bf440917bb26",
+        "signature": "f62aecc0723244fcbbed7973ffe98f0693ab1add2d2b89dfdef9bf440917bb26",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/scenes.d.ts": {
+        "version": "b2f9aeac2ad0d4353281eb72316aae0eca499a5d079d0fbb1e31f611438bb688",
+        "signature": "b2f9aeac2ad0d4353281eb72316aae0eca499a5d079d0fbb1e31f611438bb688",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/telegraf/typings/index.d.ts": {
+        "version": "d192bd08cb8effe4b3b9809f267bb187f3e72bb7b9fb84a73e870bcd541d4677",
+        "signature": "d192bd08cb8effe4b3b9809f267bb187f3e72bb7b9fb84a73e870bcd541d4677",
+        "affectsGlobalScope": false
+      },
+      "../src/telegram/telegram.service.ts": {
+        "version": "a2bda3a860f701914bdf0c59dda698cfe1fe6019b1470e27f775a1682a72957b",
+        "signature": "452e069aba31334320d512972ee3a4d700c5d63b0380ff097f5dbb7083092c54",
+        "affectsGlobalScope": false
+      },
+      "../src/telegram/telegram.module.ts": {
+        "version": "f3c9a60d8a2c6c31e0f8c63e091311ef7ab3cd3075267c67598f07d72aa8dee6",
+        "signature": "7661a9fed279e8b3213053f145db8758af194428ea681a5be50756f94fd5e9a3",
+        "affectsGlobalScope": false
+      },
       "../src/review/dto/create-review.dto.ts": {
         "version": "ee56093232379ae7313f862c851ef3a7dc3eba6032cd9f07a9f183162e8ea827",
         "signature": "1dc3e853daee86f07a1cfea9ae75de1cd0253fdb7d545814ccd37fb91830331a",
@@ -2787,12 +3007,12 @@
         "affectsGlobalScope": false
       },
       "../src/review/review.controller.ts": {
-        "version": "5afd6bccc74158d98c23d080fedc33bc062ec4b287f5321b78b992d315cfff19",
-        "signature": "021cf4e4ed3b2bcfc64b4dd7f67d77026c59340e1a5bd72e4f8cca660e82e933",
+        "version": "69b3fa3e9f46e3e4bee881af827f55ffa724500df5d3401e0ef130e1ff410871",
+        "signature": "a403bfcaec563631ceecbe4f0bea72fe5d63ef3be1a8c1d0ee8d5b8d85a780dd",
         "affectsGlobalScope": false
       },
       "../src/review/review.module.ts": {
-        "version": "45825a81a1adaa575ef659171d8619b99db9e344cf5a02f459d5b054b7ce389b",
+        "version": "4cf02385f434f4529aadf72c9b8ab294d45ae5e2186d824cf700d3320ea83d49",
         "signature": "7d5324cde1bf52bf70e4f67146365ef529908e56ad918c3edfe33336eff86eca",
         "affectsGlobalScope": false
       },
@@ -4471,8 +4691,13 @@
         "signature": "48f4814106aca9ba740da7cb8e586d24bc657e6780b3de0b409d9da18487c23c",
         "affectsGlobalScope": false
       },
+      "../src/configs/telegram.config.ts": {
+        "version": "fbb93ae844011458cd5eeb5b00f6994927c04e906fa1bfb02948e758997d514f",
+        "signature": "533548ec6ffc157c822729767b9992734c82bcb2a0e34e099341d8a5104d14f5",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "535183049ea20731984a212ebb7c620a80832721586d6bbf00f232ccc4d1724a",
+        "version": "feeda881e4a6c4e94a10c519a3c107b4f9a8e838d6136c0fde4541d2c237b303",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -5619,6 +5844,60 @@
       "../node_modules/@nestjs/serve-static/index.d.ts": [
         "../node_modules/@nestjs/serve-static/dist/index.d.ts"
       ],
+      "../node_modules/@telegraf/types/index.d.ts": [
+        "../node_modules/@telegraf/types/api.d.ts",
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/methods.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts",
+        "../node_modules/@telegraf/types/settings.d.ts",
+        "../node_modules/@telegraf/types/update.d.ts"
+      ],
+      "../node_modules/@telegraf/types/inline.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts"
+      ],
+      "../node_modules/@telegraf/types/manage.d.ts": [
+        "../node_modules/@telegraf/types/message.d.ts"
+      ],
+      "../node_modules/@telegraf/types/markup.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts"
+      ],
+      "../node_modules/@telegraf/types/message.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts"
+      ],
+      "../node_modules/@telegraf/types/methods.d.ts": [
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts",
+        "../node_modules/@telegraf/types/settings.d.ts",
+        "../node_modules/@telegraf/types/update.d.ts"
+      ],
+      "../node_modules/@telegraf/types/payment.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts"
+      ],
+      "../node_modules/@telegraf/types/settings.d.ts": [
+        "../node_modules/@telegraf/types/markup.d.ts"
+      ],
+      "../node_modules/@telegraf/types/update.d.ts": [
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts"
+      ],
       "../node_modules/@typegoose/typegoose/lib/defaultclasses.d.ts": [
         "../node_modules/@typegoose/typegoose/lib/types.d.ts",
         "../node_modules/@types/mongoose/index.d.ts"
@@ -6132,6 +6411,9 @@
       ],
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
+      ],
+      "../node_modules/abort-controller/dist/abort-controller.d.ts": [
+        "../node_modules/event-target-shim/index.d.ts"
       ],
       "../node_modules/class-transformer/types/classtransformer.d.ts": [
         "../node_modules/class-transformer/types/interfaces/index.d.ts"
@@ -7534,16 +7816,185 @@
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts"
       ],
+      "../node_modules/telegraf/typings/button.d.ts": [
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/composer.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/reactions.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts"
+      ],
+      "../node_modules/telegraf/typings/context.d.ts": [
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/network/client.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/reactions.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts",
+        "../node_modules/telegraf/typings/telegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/helpers/formatting.d.ts": [
+        "../node_modules/@telegraf/types/index.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/helpers/util.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/formatting.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/network/client.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/abort-controller/dist/abort-controller.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/network/error.d.ts": [
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/types/typegram.d.ts": [
+        "../node_modules/@telegraf/types/api.d.ts",
+        "../node_modules/@telegraf/types/index.d.ts",
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/methods.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts",
+        "../node_modules/@telegraf/types/settings.d.ts",
+        "../node_modules/@telegraf/types/update.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/telegraf/typings/format.d.ts": [
+        "../node_modules/@telegraf/types/index.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/formatting.d.ts"
+      ],
+      "../node_modules/telegraf/typings/index.d.ts": [
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/network/error.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/input.d.ts",
+        "../node_modules/telegraf/typings/markup.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/router.d.ts",
+        "../node_modules/telegraf/typings/scenes.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts",
+        "../node_modules/telegraf/typings/telegraf.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts",
+        "../node_modules/telegraf/typings/telegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/input.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/markup.d.ts": [
+        "../node_modules/telegraf/typings/button.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/middleware.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/reactions.d.ts": [
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/router.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes.d.ts": [
+        "../node_modules/telegraf/typings/scenes/index.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/base.d.ts": [
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/context.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/index.d.ts": [
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/stage.d.ts",
+        "../node_modules/telegraf/typings/scenes/wizard/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/wizard/index.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/stage.d.ts": [
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/index.d.ts",
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/wizard/context.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/wizard/index.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/wizard/context.d.ts"
+      ],
+      "../node_modules/telegraf/typings/session.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts"
+      ],
+      "../node_modules/telegraf/typings/telegraf.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/network/client.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts",
+        "../node_modules/telegraf/typings/telegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/telegram-types.d.ts": [
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/markup.d.ts"
+      ],
+      "../node_modules/telegraf/typings/telegram.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/telegraf/typings/core/network/client.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts"
+      ],
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/nestjs-typegoose/dist/index.d.ts",
         "../src/auth/auth.module.ts",
         "../src/configs/mongo.config.ts",
+        "../src/configs/telegram.config.ts",
         "../src/files/files.module.ts",
         "../src/product/product.module.ts",
         "../src/review/review.module.ts",
         "../src/sitemap/sitemap.module.ts",
+        "../src/telegram/telegram.module.ts",
         "../src/top-page/top-page.module.ts"
       ],
       "../src/auth/auth.controller.ts": [
@@ -7598,6 +8049,10 @@
       "../src/configs/mongo.config.ts": [
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/nestjs-typegoose/dist/index.d.ts"
+      ],
+      "../src/configs/telegram.config.ts": [
+        "../node_modules/@nestjs/config/index.d.ts",
+        "../src/telegram/telegram.interface.ts"
       ],
       "../src/decorators/user-email.decorator.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
@@ -7682,7 +8137,8 @@
         "../src/pipes/ad-validation.pipe.ts",
         "../src/review/dto/create-review.dto.ts",
         "../src/review/review.constants.ts",
-        "../src/review/review.service.ts"
+        "../src/review/review.service.ts",
+        "../src/telegram/telegram.service.ts"
       ],
       "../src/review/review.model.ts": [
         "../node_modules/@typegoose/typegoose/lib/defaultclasses.d.ts",
@@ -7693,7 +8149,8 @@
         "../node_modules/nestjs-typegoose/dist/index.d.ts",
         "../src/review/review.controller.ts",
         "../src/review/review.model.ts",
-        "../src/review/review.service.ts"
+        "../src/review/review.service.ts",
+        "../src/telegram/telegram.module.ts"
       ],
       "../src/review/review.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -7719,6 +8176,21 @@
         "../node_modules/@nestjs/config/index.d.ts",
         "../src/sitemap/sitemap.controller.ts",
         "../src/top-page/top-page.module.ts"
+      ],
+      "../src/telegram/telegram.interface.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/telegram/telegram.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/telegram/telegram.constants.ts",
+        "../src/telegram/telegram.interface.ts",
+        "../src/telegram/telegram.service.ts"
+      ],
+      "../src/telegram/telegram.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/telegraf/typings/index.d.ts",
+        "../src/telegram/telegram.constants.ts",
+        "../src/telegram/telegram.interface.ts"
       ],
       "../src/top-page/dto/create-top-page.dto.ts": [
         "../node_modules/class-transformer/types/index.d.ts",
@@ -8587,6 +9059,60 @@
       "../node_modules/@nestjs/serve-static/index.d.ts": [
         "../node_modules/@nestjs/serve-static/dist/index.d.ts"
       ],
+      "../node_modules/@telegraf/types/index.d.ts": [
+        "../node_modules/@telegraf/types/api.d.ts",
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/methods.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts",
+        "../node_modules/@telegraf/types/settings.d.ts",
+        "../node_modules/@telegraf/types/update.d.ts"
+      ],
+      "../node_modules/@telegraf/types/inline.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts"
+      ],
+      "../node_modules/@telegraf/types/manage.d.ts": [
+        "../node_modules/@telegraf/types/message.d.ts"
+      ],
+      "../node_modules/@telegraf/types/markup.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts"
+      ],
+      "../node_modules/@telegraf/types/message.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts"
+      ],
+      "../node_modules/@telegraf/types/methods.d.ts": [
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts",
+        "../node_modules/@telegraf/types/settings.d.ts",
+        "../node_modules/@telegraf/types/update.d.ts"
+      ],
+      "../node_modules/@telegraf/types/payment.d.ts": [
+        "../node_modules/@telegraf/types/manage.d.ts"
+      ],
+      "../node_modules/@telegraf/types/settings.d.ts": [
+        "../node_modules/@telegraf/types/markup.d.ts"
+      ],
+      "../node_modules/@telegraf/types/update.d.ts": [
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts"
+      ],
       "../node_modules/@typegoose/typegoose/lib/defaultclasses.d.ts": [
         "../node_modules/@typegoose/typegoose/lib/types.d.ts",
         "../node_modules/@types/mongoose/index.d.ts"
@@ -9100,6 +9626,9 @@
       ],
       "../node_modules/@types/yargs/index.d.ts": [
         "../node_modules/@types/yargs-parser/index.d.ts"
+      ],
+      "../node_modules/abort-controller/dist/abort-controller.d.ts": [
+        "../node_modules/event-target-shim/index.d.ts"
       ],
       "../node_modules/class-transformer/types/classtransformer.d.ts": [
         "../node_modules/class-transformer/types/interfaces/index.d.ts"
@@ -10502,6 +11031,173 @@
         "../node_modules/@types/node/index.d.ts",
         "../node_modules/@types/node/stream.d.ts"
       ],
+      "../node_modules/telegraf/typings/button.d.ts": [
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/composer.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/reactions.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts"
+      ],
+      "../node_modules/telegraf/typings/context.d.ts": [
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/network/client.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/reactions.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts",
+        "../node_modules/telegraf/typings/telegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/helpers/formatting.d.ts": [
+        "../node_modules/@telegraf/types/index.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/helpers/util.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/formatting.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/network/client.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/abort-controller/dist/abort-controller.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/network/error.d.ts": [
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/core/types/typegram.d.ts": [
+        "../node_modules/@telegraf/types/api.d.ts",
+        "../node_modules/@telegraf/types/index.d.ts",
+        "../node_modules/@telegraf/types/inline.d.ts",
+        "../node_modules/@telegraf/types/manage.d.ts",
+        "../node_modules/@telegraf/types/markup.d.ts",
+        "../node_modules/@telegraf/types/message.d.ts",
+        "../node_modules/@telegraf/types/methods.d.ts",
+        "../node_modules/@telegraf/types/passport.d.ts",
+        "../node_modules/@telegraf/types/payment.d.ts",
+        "../node_modules/@telegraf/types/settings.d.ts",
+        "../node_modules/@telegraf/types/update.d.ts",
+        "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/telegraf/typings/format.d.ts": [
+        "../node_modules/@telegraf/types/index.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/formatting.d.ts"
+      ],
+      "../node_modules/telegraf/typings/index.d.ts": [
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/network/error.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/input.d.ts",
+        "../node_modules/telegraf/typings/markup.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/router.d.ts",
+        "../node_modules/telegraf/typings/scenes.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts",
+        "../node_modules/telegraf/typings/telegraf.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts",
+        "../node_modules/telegraf/typings/telegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/input.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/markup.d.ts": [
+        "../node_modules/telegraf/typings/button.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/middleware.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/reactions.d.ts": [
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/router.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes.d.ts": [
+        "../node_modules/telegraf/typings/scenes/index.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/base.d.ts": [
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/context.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/index.d.ts": [
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/stage.d.ts",
+        "../node_modules/telegraf/typings/scenes/wizard/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/wizard/index.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/stage.d.ts": [
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/index.d.ts",
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/wizard/context.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/session.d.ts"
+      ],
+      "../node_modules/telegraf/typings/scenes/wizard/index.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts",
+        "../node_modules/telegraf/typings/scenes/base.d.ts",
+        "../node_modules/telegraf/typings/scenes/context.d.ts",
+        "../node_modules/telegraf/typings/scenes/wizard/context.d.ts"
+      ],
+      "../node_modules/telegraf/typings/session.d.ts": [
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/middleware.d.ts"
+      ],
+      "../node_modules/telegraf/typings/telegraf.d.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/tls.d.ts",
+        "../node_modules/telegraf/typings/composer.d.ts",
+        "../node_modules/telegraf/typings/context.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/network/client.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts",
+        "../node_modules/telegraf/typings/telegram.d.ts"
+      ],
+      "../node_modules/telegraf/typings/telegram-types.d.ts": [
+        "../node_modules/telegraf/typings/core/helpers/deunionize.d.ts",
+        "../node_modules/telegraf/typings/core/helpers/util.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/markup.d.ts"
+      ],
+      "../node_modules/telegraf/typings/telegram.d.ts": [
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/@types/node/url.d.ts",
+        "../node_modules/telegraf/typings/core/network/client.d.ts",
+        "../node_modules/telegraf/typings/core/types/typegram.d.ts",
+        "../node_modules/telegraf/typings/format.d.ts",
+        "../node_modules/telegraf/typings/telegram-types.d.ts"
+      ],
       "../src/auth/auth.controller.ts": [
         "../node_modules/@types/mongoose/index.d.ts",
         "../src/auth/auth.service.ts",
@@ -10532,6 +11228,10 @@
       "../src/configs/mongo.config.ts": [
         "../node_modules/@nestjs/config/index.d.ts",
         "../node_modules/nestjs-typegoose/dist/index.d.ts"
+      ],
+      "../src/configs/telegram.config.ts": [
+        "../node_modules/@nestjs/config/index.d.ts",
+        "../src/telegram/telegram.interface.ts"
       ],
       "../src/files/files.controller.ts": [
         "../src/files/dto/file-element.reposonse.ts",
@@ -10566,7 +11266,8 @@
         "../node_modules/@typegoose/typegoose/lib/typegoose.d.ts",
         "../src/review/dto/create-review.dto.ts",
         "../src/review/review.model.ts",
-        "../src/review/review.service.ts"
+        "../src/review/review.service.ts",
+        "../src/telegram/telegram.service.ts"
       ],
       "../src/review/review.model.ts": [
         "../node_modules/@typegoose/typegoose/lib/defaultclasses.d.ts"
@@ -10582,6 +11283,17 @@
       "../src/sitemap/sitemap.controller.ts": [
         "../node_modules/@nestjs/config/index.d.ts",
         "../src/top-page/top-page.service.ts"
+      ],
+      "../src/telegram/telegram.interface.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/telegram/telegram.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/telegram/telegram.interface.ts"
+      ],
+      "../src/telegram/telegram.service.ts": [
+        "../node_modules/telegraf/typings/index.d.ts",
+        "../src/telegram/telegram.interface.ts"
       ],
       "../src/top-page/dto/create-top-page.dto.ts": [
         "../src/top-page/top-page.model.ts"

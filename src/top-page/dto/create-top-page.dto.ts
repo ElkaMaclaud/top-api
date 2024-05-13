@@ -23,7 +23,7 @@ export class HhDataDto {
   @IsNumber()
   seniorSalary: number;
 
-  @IsString()
+  @IsDate()
   updatedAt: Date;
 }
 

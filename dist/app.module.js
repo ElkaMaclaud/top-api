@@ -19,6 +19,7 @@ const files_module_1 = require("./files/files.module");
 const sitemap_module_1 = require("./sitemap/sitemap.module");
 const telegram_module_1 = require("./telegram/telegram.module");
 const telegram_config_1 = require("./configs/telegram.config");
+const hh_module_1 = require("./hh/hh.module");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -41,6 +42,7 @@ AppModule = __decorate([
                 inject: [config_1.ConfigService],
                 useFactory: telegram_config_1.getTelegramConfig,
             }),
+            hh_module_1.HhModule,
         ],
     })
 ], AppModule);

@@ -80,5 +80,5 @@ export class CreateTopPageDto {
   tags: string[];
 
   @IsString()
-  typegooseName: string;
+  typegooseName: () => string;
 }

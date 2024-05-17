@@ -88,7 +88,7 @@ export class TopPageController {
     return this.topPageService.findByText(text);
   }
 
-  @Post("test")
+  @Cron(CronExpression.EVERY_DAY_AT_MIDNIGHT)
   async test() {
     const data = await this.topPageService.findForHhUpdate(new Date());
     for (let page of data) {

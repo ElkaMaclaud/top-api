@@ -4152,8 +4152,8 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.controller.ts": {
-        "version": "86214b1adbaaa686a44983e30fdf99f4cba3c906b49bc9937bebb419a36b4061",
-        "signature": "72303a25867511eb40630ad6fa9a0770b377593750d744b8fbc135d93a367da0",
+        "version": "2cae359cdae7617c7ca1f25866405b3653412097073bf97ed1c5069d848d0831",
+        "signature": "617ba33e74ca15174a5e5ae877ab68f80a52bbe159d74be7f39c201ee050e61b",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.module.ts": {
@@ -4847,7 +4847,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "70248542aed7fcd4a09bdfbe2512828486287510bb39c0956560568b1bedd902",
+        "version": "721b5d59683af01feb43cb884194355e854c2e9e1f2cea7e900c6a846dfb403b",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -4899,6 +4899,16 @@
       "../node_modules/@types/cookiejar/index.d.ts": {
         "version": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
         "signature": "8d48b8f8a377ade8dd1f000625bc276eea067f2529cc9cafdf082d17142107d6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/moment/ts3.1-typings/moment.d.ts": {
+        "version": "4051f6311deb0ce6052329eeb1cd4b1b104378fe52f882f483130bea75f92197",
+        "signature": "4051f6311deb0ce6052329eeb1cd4b1b104378fe52f882f483130bea75f92197",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/cron/index.d.ts": {
+        "version": "bbf9ee0a77a0b3e2fdd39a598561f3b0317fc8e939a878e04b2c2c19c6f23db7",
+        "signature": "bbf9ee0a77a0b3e2fdd39a598561f3b0317fc8e939a878e04b2c2c19c6f23db7",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/eslint/helpers.d.ts": {
@@ -6163,6 +6173,11 @@
       "../node_modules/@types/connect/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/cron/index.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/moment/ts3.1-typings/moment.d.ts"
       ],
       "../node_modules/@types/eslint-scope/index.d.ts": [
         "../node_modules/@types/eslint/index.d.ts",
@@ -8229,6 +8244,7 @@
       "../src/app.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/config/index.d.ts",
+        "../node_modules/@nestjs/schedule/index.d.ts",
         "../node_modules/nestjs-typegoose/dist/index.d.ts",
         "../src/auth/auth.module.ts",
         "../src/configs/mongo.config.ts",
@@ -9490,6 +9506,11 @@
       "../node_modules/@types/connect/index.d.ts": [
         "../node_modules/@types/node/http.d.ts",
         "../node_modules/@types/node/index.d.ts"
+      ],
+      "../node_modules/@types/cron/index.d.ts": [
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/index.d.ts",
+        "../node_modules/moment/ts3.1-typings/moment.d.ts"
       ],
       "../node_modules/@types/eslint-scope/index.d.ts": [
         "../node_modules/@types/eslint/index.d.ts",
@@ -11662,6 +11683,7 @@
         "../src/top-page/top-page.model.ts"
       ],
       "../src/top-page/top-page.controller.ts": [
+        "../node_modules/@nestjs/schedule/index.d.ts",
         "../node_modules/@typegoose/typegoose/lib/typegoose.d.ts",
         "../src/hh/hh.service.ts",
         "../src/top-page/dto/create-top-page.dto.ts",

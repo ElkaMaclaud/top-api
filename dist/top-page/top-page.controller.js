@@ -23,9 +23,10 @@ const find_top_page_dto_1 = require("./dto/find-top-page.dto");
 const top_page_constants_1 = require("./top-page.constants");
 const top_page_service_1 = require("./top-page.service");
 let TopPageController = class TopPageController {
-    constructor(topPageService, hhService) {
+    constructor(topPageService, hhService, scheduleRegistry) {
         this.topPageService = topPageService;
         this.hhService = hhService;
+        this.scheduleRegistry = scheduleRegistry;
     }
     async create(dto) {
         return this.topPageService.create(dto);
@@ -64,20 +65,8 @@ let TopPageController = class TopPageController {
         return this.topPageService.findByText(text);
     }
     async test() {
-        const data = await this.topPageService.findForHhUpdate(new Date());
-        for (let page of data) {
-            const hhData = await this.hhService.getData(page.category);
-            page.hh = hhData;
-            await this.sleep();
-            await this.topPageService.updateById(page._id, page);
-        }
-    }
-    sleep() {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                resolve();
-            }, 1000);
-        });
+        common_1.Logger.log("Cron!");
+        const job = this.scheduleRegistry.getCronJob("test");
     }
 };
 __decorate([
@@ -138,7 +127,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], TopPageController.prototype, "textSearch", null);
 __decorate([
-    schedule_1.Cron(schedule_1.CronExpression.EVERY_DAY_AT_MIDNIGHT),
+    schedule_1.Cron(schedule_1.CronExpression.EVERY_SECOND, { name: "test" }),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", Promise)
@@ -146,7 +135,8 @@ __decorate([
 TopPageController = __decorate([
     common_1.Controller("top-page"),
     __metadata("design:paramtypes", [top_page_service_1.TopPageService,
-        hh_service_1.HhService])
+        hh_service_1.HhService,
+        schedule_1.SchedulerRegistry])
 ], TopPageController);
 exports.TopPageController = TopPageController;
 //# sourceMappingURL=top-page.controller.js.map

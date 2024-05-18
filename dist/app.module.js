@@ -20,11 +20,13 @@ const sitemap_module_1 = require("./sitemap/sitemap.module");
 const telegram_module_1 = require("./telegram/telegram.module");
 const telegram_config_1 = require("./configs/telegram.config");
 const hh_module_1 = require("./hh/hh.module");
+const schedule_1 = require("@nestjs/schedule");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
         imports: [
+            schedule_1.ScheduleModule.forRoot(),
             config_1.ConfigModule.forRoot(),
             nestjs_typegoose_1.TypegooseModule.forRootAsync({
                 imports: [config_1.ConfigModule],

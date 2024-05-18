@@ -30,6 +30,7 @@ TopPageModule = __decorate([
             hh_module_1.HhModule,
         ],
         providers: [top_page_service_1.TopPageService],
+        exports: [top_page_service_1.TopPageService],
     })
 ], TopPageModule);
 exports.TopPageModule = TopPageModule;

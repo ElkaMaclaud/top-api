@@ -27,7 +27,7 @@ export class TopPageController {
   constructor(
     private readonly topPageService: TopPageService,
     private readonly hhService: HhService,
-    private readonly scheduleRegistry: SchedulerRegistry
+    // private readonly scheduleRegistry: SchedulerRegistry
   ) {}
 
   @UseGuards(JwtAuthGuard)
@@ -94,7 +94,16 @@ export class TopPageController {
     for (let page of data) {
       const hhData = await this.hhService.getData(page.category);
       page.hh = hhData;
+      await this.sleep();
       await this.topPageService.updateById(page._id, page);
     }
+  }
+
+  sleep() {
+    return new Promise<void>((resolve, reject) => {
+      setTimeout(() => {
+        resolve()
+      }, 100);
+    })
   }
 }

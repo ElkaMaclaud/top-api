@@ -1,4 +1,3 @@
-import { SchedulerRegistry } from "@nestjs/schedule";
 import { HhService } from "src/hh/hh.service";
 import { CreateTopPageDto } from "./dto/create-top-page.dto";
 import { FindTopPageDto } from "./dto/find-top-page.dto";
@@ -6,8 +5,7 @@ import { TopPageService } from "./top-page.service";
 export declare class TopPageController {
     private readonly topPageService;
     private readonly hhService;
-    private readonly scheduleRegistry;
-    constructor(topPageService: TopPageService, hhService: HhService, scheduleRegistry: SchedulerRegistry);
+    constructor(topPageService: TopPageService, hhService: HhService);
     create(dto: CreateTopPageDto): Promise<import("@typegoose/typegoose").DocumentType<import("./top-page.model").TopPageModel>>;
     get(id: string): Promise<import("@typegoose/typegoose").DocumentType<import("./top-page.model").TopPageModel>>;
     getByAlias(alias: string): Promise<import("@typegoose/typegoose").DocumentType<import("./top-page.model").TopPageModel>>;
@@ -16,4 +14,5 @@ export declare class TopPageController {
     find(dto: FindTopPageDto): Promise<any>;
     textSearch(text: string): Promise<import("@typegoose/typegoose").DocumentType<import("./top-page.model").TopPageModel>[]>;
     test(): Promise<void>;
+    sleep(): Promise<void>;
 }

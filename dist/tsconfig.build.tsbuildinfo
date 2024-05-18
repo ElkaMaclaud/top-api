@@ -4152,12 +4152,12 @@
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.controller.ts": {
-        "version": "389a88e2178e4718e6ef5fd2a381a2d1e1481163dd937f70c6f8cb32722b5206",
-        "signature": "617ba33e74ca15174a5e5ae877ab68f80a52bbe159d74be7f39c201ee050e61b",
+        "version": "86214b1adbaaa686a44983e30fdf99f4cba3c906b49bc9937bebb419a36b4061",
+        "signature": "72303a25867511eb40630ad6fa9a0770b377593750d744b8fbc135d93a367da0",
         "affectsGlobalScope": false
       },
       "../src/top-page/top-page.module.ts": {
-        "version": "fe46b45904959ae01fceac0eef321a52057aa115e6e5de4aa2dcf3ff48f21d02",
+        "version": "7020a7b4463d73648368b95666dcdae030e1d3342dce81dcba8ee4929a741914",
         "signature": "f99b22f060c79edf8978129636804f21a94299d7b5322f724d5c80b7e46a77bd",
         "affectsGlobalScope": false
       },
@@ -4837,7 +4837,7 @@
         "affectsGlobalScope": false
       },
       "../src/sitemap/sitemap.module.ts": {
-        "version": "e2d42b4a8d5f07f07844fbe4bf805cd21c24dce6b29c7ea81c124f4640a69947",
+        "version": "8d114575eeb3d458ec76e30c4d7127afa0d67b0b0b46dff4cd0482dcef106c55",
         "signature": "48f4814106aca9ba740da7cb8e586d24bc657e6780b3de0b409d9da18487c23c",
         "affectsGlobalScope": false
       },
@@ -4847,7 +4847,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "b8810679069ed1fe1a43b786eba605211eed269e64daf93fa5b6d37c08deefa8",
+        "version": "70248542aed7fcd4a09bdfbe2512828486287510bb39c0956560568b1bedd902",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
@@ -11662,7 +11662,6 @@
         "../src/top-page/top-page.model.ts"
       ],
       "../src/top-page/top-page.controller.ts": [
-        "../node_modules/@nestjs/schedule/index.d.ts",
         "../node_modules/@typegoose/typegoose/lib/typegoose.d.ts",
         "../src/hh/hh.service.ts",
         "../src/top-page/dto/create-top-page.dto.ts",

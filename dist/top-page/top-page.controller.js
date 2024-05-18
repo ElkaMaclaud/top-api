@@ -23,10 +23,9 @@ const find_top_page_dto_1 = require("./dto/find-top-page.dto");
 const top_page_constants_1 = require("./top-page.constants");
 const top_page_service_1 = require("./top-page.service");
 let TopPageController = class TopPageController {
-    constructor(topPageService, hhService, scheduleRegistry) {
+    constructor(topPageService, hhService) {
         this.topPageService = topPageService;
         this.hhService = hhService;
-        this.scheduleRegistry = scheduleRegistry;
     }
     async create(dto) {
         return this.topPageService.create(dto);
@@ -69,8 +68,16 @@ let TopPageController = class TopPageController {
         for (let page of data) {
             const hhData = await this.hhService.getData(page.category);
             page.hh = hhData;
+            await this.sleep();
             await this.topPageService.updateById(page._id, page);
         }
+    }
+    sleep() {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve();
+            }, 1000);
+        });
     }
 };
 __decorate([
@@ -139,8 +146,7 @@ __decorate([
 TopPageController = __decorate([
     common_1.Controller("top-page"),
     __metadata("design:paramtypes", [top_page_service_1.TopPageService,
-        hh_service_1.HhService,
-        schedule_1.SchedulerRegistry])
+        hh_service_1.HhService])
 ], TopPageController);
 exports.TopPageController = TopPageController;
 //# sourceMappingURL=top-page.controller.js.map

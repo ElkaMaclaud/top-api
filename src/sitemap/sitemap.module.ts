@@ -1,6 +1,7 @@
 import { Module } from "@nestjs/common";
-import { ConfigModule } from "@nestjs/config";
+import { ConfigModule, ConfigService } from "@nestjs/config";
 import { TopPageModule } from "src/top-page/top-page.module";
+import { TopPageService } from "src/top-page/top-page.service";
 import { SitemapController } from "./sitemap.controller";
 
 @Module({
